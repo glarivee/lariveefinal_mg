@@ -54,6 +54,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/EdRooney.png" : {
+      "ft" : 32768,
+      "iS" : 30496,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/EdRooney.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -113,6 +126,28 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/detail.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/detail-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/inmotion.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/inmotion-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/logoIntro.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -124,13 +159,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/name.js" : {
+    "\/dev\/js\/phonecall.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/name-min.js",
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/phonecall-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
