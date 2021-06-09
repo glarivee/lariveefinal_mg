@@ -1,0 +1,48 @@
+#svg-container {
+	display: grid;
+	grid-template-columns: auto 80% auto;
+	grid-template-areas: ". svg-container .";
+	height: 100vh;
+	background-color: black;
+
+	@include md {
+		grid-template-columns: auto 70% auto;
+	}
+
+	@include lg {
+		grid-template-columns: auto 60% auto;
+	}
+
+	@include xl {
+		grid-template-columns: auto 1200px auto;
+	}
+
+	>div {
+		display: flex;
+		align-items: center;
+
+		grid-area: svg-container;
+
+		
+
+		#svg-content {
+			position: relative;
+			// border: solid 1px red;
+			width: 100%;
+
+			#albumCoverIMG{
+				position: absolute;
+				top:5%;
+				height: 20%;
+				left:24%;
+			}
+
+			svg {
+				margin-top: -15%;
+				width: 100%;
+				//DELETE ME WHEN FINISHED
+				border: red 1px solid;
+			}
+		}
+	}
+}
