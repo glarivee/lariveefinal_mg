@@ -445,9 +445,15 @@ textarea {
 }
 #svg-container > div #svg-content #EdRooneyIMG {
   position: absolute;
-  top: 20%;
+  top: 35%;
   height: 40%;
-  left: 37%;
+  left: 35%;
+}
+#svg-container > div #svg-content #mapIMG {
+  position: absolute;
+  top: 0%;
+  height: 60%;
+  left: 5%;
 }
 #svg-container > div #svg-content svg {
   margin-top: -15%;

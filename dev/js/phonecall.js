@@ -8,7 +8,9 @@ gsap.set("#EdRooneyIMG", { transformOrigin: "center center"});
 // gsap.registerPlugin(DrawSVGPlugin);
 
 phonecallTL
+.to("#LocationTracker",{alpha:0, duration:.1})
 .from("#phoneicons",{alpha:0, duration:1})
-.from("#IncomingCall",{alpha:0, duration:1},"ring")
-.from("#EdRooneyIMG",{ duration: 1, alpha:0}, "-=.75", "ring")
+.from("#Fill-13", {x:"-=1",repeat:5, yoyo:true, duration:.25})
+.from("#IncomingCall",{alpha:0, duration:2},"ring")
+.from("#EdRooneyIMG",{ duration: 2, alpha:0}, "-=.75", "ring")
 ;

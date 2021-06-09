@@ -67,6 +67,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/map.png" : {
+      "ft" : 32768,
+      "iS" : 46512,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/map.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -159,13 +172,24 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/map.js" : {
+    "\/dev\/js\/mapmotion.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/map-min.js",
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/mapmotion-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/mapsetup.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/mapsetup-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

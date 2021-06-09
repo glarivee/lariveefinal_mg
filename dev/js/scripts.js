@@ -10,7 +10,8 @@ import { logoIntroTL } from "./logoIntro"
 import { detailTL } from "./detail"
 import { inmotionTL } from "./inmotion"
 import { phonecallTL } from "./phonecall"
-;
+import { mapTL } from "./mapsetup"
+import { mapMotionTL } from "./mapMotion";
 
 // Main Timeline
 let mainTL = gsap.timeline();
@@ -19,7 +20,9 @@ mainTL
 .add(logoIntroTL)
 .add(detailTL)
 .add(inmotionTL)
-.add(phonecallTL);
+.add(phonecallTL)
+.add(mapTL)
+.add(mapMotionTL);
 
 
 // // DEV Tools
