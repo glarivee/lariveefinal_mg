@@ -24,11 +24,11 @@ logoIntroTL
 .to("#Ferrari-Logo-Start",{y:"+=100", duration:1}, "move")
 
 // //white circles fade out, real circles fade in
-.to("#Circle2",{alpha:0, duration:.25}, "byehi")
-.to("#Circle1",{alpha:0, duration:.25}, "byehi")
-.from("#RPM-circle",{alpha:0, duration:.25}, "byehi")
-.from("#mph-circle",{alpha:0, duration:.25}, "byehi")
-.from ("#GasTank", {alpha:0, duration:.25}, "byehi")
+.to("#Circle2",{alpha:0, duration:.75}, "byehi")
+.to("#Circle1",{alpha:0, duration:.75}, "byehi")
+.from("#RPM-circle",{alpha:0, duration:.75}, "byehi")
+.from("#mph-circle",{alpha:0, duration:.75}, "byehi")
+.from ("#GasTank", {alpha:0, duration:.75}, "byehi")
 
 //logo moves to bottom
 

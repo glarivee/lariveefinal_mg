@@ -443,14 +443,13 @@ textarea {
   position: relative;
   width: 100%;
 }
-#svg-container > div #svg-content #albumCoverIMG {
+#svg-container > div #svg-content #EdRooneyIMG {
   position: absolute;
-  top: 5%;
-  height: 20%;
-  left: 24%;
+  top: 20%;
+  height: 40%;
+  left: 37%;
 }
 #svg-container > div #svg-content svg {
   margin-top: -15%;
   width: 100%;
-  border: red 1px solid;
 }

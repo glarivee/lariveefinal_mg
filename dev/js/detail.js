@@ -6,11 +6,11 @@ export let detailTL = gsap.timeline();
 // gsap.registerPlugin(DrawSVGPlugin);
 
 detailTL
-.from("#buttonIcons",{alpha:0, duration:.75},"sametime")
-.from("#FuelDetail",{alpha:0, duration:.75},"sametime")
-.from("#timemiles",{alpha:0, duration:.75},"sametime")
-.from("#MPH",{alpha:0, duration:.75},"sametime")
-.from("#RPM",{alpha:0, duration:.75},"sametime")
+.from("#buttonIcons",{alpha:0, duration:1},"sametime")
+.from("#FuelDetail",{alpha:0, duration:1},"sametime")
+.from("#timemiles",{alpha:0, duration:1},"sametime")
+.from("#MPH",{alpha:0, duration:1},"sametime")
+.from("#RPM",{alpha:0, duration:1},"sametime")
 
 
 ;
