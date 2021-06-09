@@ -21,6 +21,7 @@ logoIntroTL
 .to("#Circle2",{x:"+=82", duration:1, scale:1.3, y:"-=10"}, "move")
 .to("#Circle1",{x:"-=82", duration:1, scale:1.3, y:"-=10"}, "move")
 .to("#yellowCircle",{alpha:0, duration:.25}, "move")
+.to("#Ferrari-Logo-Start",{y:"+=100", duration:2}, "move")
 
 // //white circles fade out, real circles fade in
 .to("#Circle2",{alpha:0, duration:.25}, "byehi")
@@ -28,8 +29,9 @@ logoIntroTL
 .from("#RPM-circle",{alpha:0, duration:.25}, "byehi")
 .from("#mph-circle",{alpha:0, duration:.25}, "byehi")
 
+
 //logo moves to bottom
-.to("#Ferrari-Logo-Start",{y:"+=50", duration:2})
+
 
 
 // .from("#albumCoverIMG",{alpha:0, duration:2})
